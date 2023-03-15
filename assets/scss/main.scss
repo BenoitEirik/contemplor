@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'QTBasker';
+  src: url('@/assets/fonts/QTBasker.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'QTBasker';
+  src: url('@/assets/fonts/QTBasker-Italic.woff2') format('woff2');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'QTBasker';
+  src: url('@/assets/fonts/QTBasker-Bold.woff2') format('woff2');
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,13 +20,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'unknown';  // The only one heritated by children
+  font-family: 'QTBasker';  // The only one heritated by children
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
-  font-family: 'unknown';
+  font-family: 'QTBasker';
   font-weight: normal;
   line-height: 200%;
 }
